@@ -30,7 +30,11 @@ define hostgroup{
 define hostgroup{
         hostgroup_name  smtp-servers
         alias           smtp-servers
+<<<<<<< Updated upstream
+        members         ut-eclipsing,freeze.org,rn-excel-1,rn-excel-2,rn-gt-1
+=======
         members         ut-eclipsing,rn-excel-1,rn-excel-2,rn-gt-1
+>>>>>>> Stashed changes
         }
 
 define hostgroup{
